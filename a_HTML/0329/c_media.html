@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>c_media.html</title>
+</head>
+<body>
+<!--
+  object 태그
+  
+  -오디오 파일 뿐만 아니라 비디오, pdf등 다양한 멀티미디어 파일 삽입 가능
+
+  - 웹 문서 안에 다른 문서를 삽입할 때도 사용가능
+-->
+
+<!-- 
+  object 태그 예시
+-->
+
+<object data="../../정보처리기사 출제기준(2020.1.1.~2022.12.31).hwp" type="900px"></object>
+
+
+
+<!-- 
+  embed태그
+  
+  -HTML 초기 버전부터 사용: 대부분 브라우저에서 사용가능
+
+  -오디오, 비디오, 이미지 등 다양한 멀티미디어 삽입가능
+-->
+
+
+<!-- embed 태그 사용예시 -->
+<!-- <embed src="../../정보처리기사 출제기준(2020.1.1.~2022.12.31).hwp"/> -->
+
+<hr/>
+
+<!-- 
+  오디오, 비디오 태그의
+  control 속성
+  : 오디오나 비디오 파일을 시작하거나 종료할 수 있는 컨트롤 바
+  (플러그 인 프로그램 없이도 미디어를 실행 가능)
+-->
+
+
+<!-- audio 태그 예시 -->
+
+<h3>오디오 삽입</h3>
+<audio src="../../better-day-186374.mp3" controls autoplay muted></audio> 
+
+<h3>비디오 삽입</h3>
+<video src="../../200157-912127896_tiny.mp4" controls autoplay loop></video>
+</body>
+</html>

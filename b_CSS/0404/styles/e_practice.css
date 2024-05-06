@@ -1,0 +1,28 @@
+/* A */
+
+div p{
+  color: red;
+}
+
+/* B */
+div > p{
+  color: blue;
+}
+
+/* C */
+
+p + p {
+  color: green;
+}
+
+
+
+
+
+
+
+
+
+.list-item + .hightlight { color: purple; }
+
+ul li ~ .hightlight { background-color: lightblue; }
